@@ -1,0 +1,32 @@
+*{ 
+/* Asterisco serve para selecionar todo o HTML */
+
+
+/* margin:0 e padding:0 = reset do CSS */
+}
+
+span{
+/* Se não atribuir nada antes do texto do atributo -> selecionará todos elementos Span do HTML */
+
+
+}
+
+
+.fundo-cinza{
+/* o ponto serve para uma class dentro do HTML */
+    background-color: gray;
+}
+
+#CorTextoBranco{
+    /* O ID serve para o ID do HTML */
+    /* Não muito utilizado para estilização com CSS */
+    color: white;
+    text-align: center;
+}
+
+p[value]{
+
+    /* serve para o elemento e valor do elemento exemplo : paragrafo com valor 5 p[value = "5"] */
+}
+
+
