@@ -1,0 +1,59 @@
+.box-model{
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 2px solid black;
+    margin: 30px 20px;
+
+
+ /* A ordem sempre segue top > right > bottom > left */
+
+}
+.centralizado{
+width: 150px;
+/* largura dos elementos */
+
+height: 150px;
+/* altura dos elementos */
+
+
+border :1px solid red;
+/* Insere bordas */
+    margin:0 auto;
+    /* Sem margem */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+.overflow{
+
+    width: 250px;
+    height: 50px;
+    overflow:auto;
+    border: 2px solid blue;
+    margin: 0 auto;
+
+}
+
+
+.testBorder{
+
+    border:3px outset red;
+    /* Outset diminui faz um efeito legal nas bordas */
+    border-radius: 5px;
+/* Border Radius - > coloca bordas arredondadas */
+    /* border-top-left-radius - atribui borda apenas a um lado da borda */
+
+
+
+}
+
+.Display{
+
+    display: inline;
+    /* Display inline mostra o elemento em linha */
+
+    display: block;
+    /* display Block quebra em blocos */
+
+
+}

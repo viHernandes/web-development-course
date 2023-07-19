@@ -1,0 +1,10 @@
+.Praticar{
+
+ height: 50px;
+width: 200px;
+border:dashed 5px black;
+padding: 6px 9px;
+overflow: scroll;
+margin: 0 auto;
+}
+
